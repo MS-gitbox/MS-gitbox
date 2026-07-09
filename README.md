@@ -30,16 +30,36 @@ Welcome to my GitHub portfolio! I specialize in extracting value from complex da
 
 *(Dashboards and repositories will be linked below as they are published)*
 
-1. **[Dune Analytics - Crypto Dashboards]** (Coming Soon) - Ethereum/Solana network fee and transaction behavior analysis.
-
 ### 📊 [Ethereum Gas Price Analysis (Dune Analytics)](https://github.com/MS-github/ethereum-gas-analysis-dune)
 * **Description:** An on-chain data analysis tracking 24-hour Ethereum gas fee fluctuations using SQL to optimize smart contract execution costs.
 * **Tech Stack:** Dune SQL, Data Visualization, Blockchain Analytics.
 
 
-2. **[Supply Chain Inventory Dashboard]** (Coming Soon) - Interactive Looker Studio dashboard for warehouse optimization.
+# 📊 Global Supply Chain Performance & Procurement Analytics
+
+## 📌 Project Overview
+This project delivers an end-to-end supply chain optimization analysis for an international manufacturing enterprise. By evaluating multi-national procurement data, logistics modes, and supplier compliance metrics, this repository establishes data-driven frameworks to mitigate supply chain risks, reduce financial penalties, and optimize total cost of ownership (TCO).
+
+## 🎯 Business & Engineering Logic (KPIs)
+To transform raw logistics rows into actionable executive insights, the following advanced data models and business rules were engineered within the dataset:
+1. **Total Procurement Cost (TCO Metric):** Formulated as `(Unit_Cost * Quantity) + Shipping_Cost` to calculate the absolute landed cost per fulfillment cycle.
+2. **Supplier Lead-Time Compliance:** Quantified delivery execution variance using `Actual_Delivery_Date - Expected_Delivery_Date` to identify operational bottlenecks.
+3. **Contractual Penalty Risk:** Implemented logical gating `=IF(Delay_Days > 3, "Yes", "No")` based on service level agreements (SLAs) to flag suppliers breaching contract limits.
+4. **Supplier Risk Stratification:** Applied predictive indexing `=IF(Delay_Days > 0, "High Risk", "Reliable")` to systematically segment vendors during quarter reviews.
+
+## 🛠️ Tech Stack & Methods
+* **Tooling:** Microsoft Excel / Google Sheets (Advanced Logical & Financial Functions).
+* **Data Infrastructure:** Structured CSV auditing international freight from Taiwan, Germany, China, and Poland.
+* **Analytical Techniques:** SLA breach modeling, shipping cost optimization, and vendor risk matrixing.
+
+## 📁 Dataset Architecture
+The core analytics are performed on `global_supply_chain_data.csv` featuring engineered features:
+* `Total_Procurement_Cost`: Financial impact of freight + inventory.
+* `Delay_Days`: Discrepancy in logistical operations.
+* `Penalty_Applies`: SLA violations.
 
 ---
+*For professional inquiries or consulting regarding supply chain intelligence and business process automation, please reach out via [LinkedIn](YOUR_LINKEDIN_URL).*
 
 ## 📬 Contact Me 
 
