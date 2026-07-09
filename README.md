@@ -31,6 +31,12 @@ Welcome to my GitHub portfolio! I specialize in extracting value from complex da
 *(Dashboards and repositories will be linked below as they are published)*
 
 1. **[Dune Analytics - Crypto Dashboards]** (Coming Soon) - Ethereum/Solana network fee and transaction behavior analysis.
+
+### 📊 [Ethereum Gas Price Analysis (Dune Analytics)](https://github.com/MS-github/ethereum-gas-analysis-dune)
+* **Description:** An on-chain data analysis tracking 24-hour Ethereum gas fee fluctuations using SQL to optimize smart contract execution costs.
+* **Tech Stack:** Dune SQL, Data Visualization, Blockchain Analytics.
+
+
 2. **[Supply Chain Inventory Dashboard]** (Coming Soon) - Interactive Looker Studio dashboard for warehouse optimization.
 
 ---
