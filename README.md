@@ -35,24 +35,24 @@ Welcome to my GitHub portfolio! I specialize in extracting value from complex da
 * **Tech Stack:** Dune SQL, Data Visualization, Blockchain Analytics.
 
 
-# 📊 Global Supply Chain Performance & Procurement Analytics
+### 📊 Global Supply Chain Performance & Procurement Analytics
 
-## 📌 Project Overview
+### 📌 Project Overview
 This project delivers an end-to-end supply chain optimization analysis for an international manufacturing enterprise. By evaluating multi-national procurement data, logistics modes, and supplier compliance metrics, this repository establishes data-driven frameworks to mitigate supply chain risks, reduce financial penalties, and optimize total cost of ownership (TCO).
 
-## 🎯 Business & Engineering Logic (KPIs)
+### 🎯 Business & Engineering Logic (KPIs)
 To transform raw logistics rows into actionable executive insights, the following advanced data models and business rules were engineered within the dataset:
 1. **Total Procurement Cost (TCO Metric):** Formulated as `(Unit_Cost * Quantity) + Shipping_Cost` to calculate the absolute landed cost per fulfillment cycle.
 2. **Supplier Lead-Time Compliance:** Quantified delivery execution variance using `Actual_Delivery_Date - Expected_Delivery_Date` to identify operational bottlenecks.
 3. **Contractual Penalty Risk:** Implemented logical gating `=IF(Delay_Days > 3, "Yes", "No")` based on service level agreements (SLAs) to flag suppliers breaching contract limits.
 4. **Supplier Risk Stratification:** Applied predictive indexing `=IF(Delay_Days > 0, "High Risk", "Reliable")` to systematically segment vendors during quarter reviews.
 
-## 🛠️ Tech Stack & Methods
+### 🛠️ Tech Stack & Methods
 * **Tooling:** Microsoft Excel / Google Sheets (Advanced Logical & Financial Functions).
 * **Data Infrastructure:** Structured CSV auditing international freight from Taiwan, Germany, China, and Poland.
 * **Analytical Techniques:** SLA breach modeling, shipping cost optimization, and vendor risk matrixing.
 
-## 📁 Dataset Architecture
+### 📁 Dataset Architecture
 The core analytics are performed on `global_supply_chain_data.csv` featuring engineered features:
 * `Total_Procurement_Cost`: Financial impact of freight + inventory.
 * `Delay_Days`: Discrepancy in logistical operations.
